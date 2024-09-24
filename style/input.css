@@ -59,3 +59,6 @@
     opacity: 0.4;
     z-index: 1;
 }
+.cardProjek {
+    @apply flex h-[250px] lg:w-[550px] shadow-lg w-full bg-slate-50 rounded-lg gap-5;
+}
