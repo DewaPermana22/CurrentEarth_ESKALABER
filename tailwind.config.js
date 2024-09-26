@@ -13,6 +13,8 @@ module.exports = {
         'home': "url('../assets/img/bg-hero.jpg')",
         'Sensor' : "url('../assets/img/sensor-udara.jpeg')",
         'robot' : "url('../assets/img/robot.webp')",
+        'drone' : "url('../assets/img/drone-1866742_640.jpg')",
+        'sea-bin': "url('../assets/img/seabin-artc.jpg')",
       },
       keyframes: {
         breathing: {
@@ -21,7 +23,7 @@ module.exports = {
         },
       },
       animation: {
-        breathing: 'breathing 5s ease-in-out infinite',  // durasi 2 detik, infinite loop
+        breathing: 'breathing 5s ease-in-out infinite',
       },
     },
   },
