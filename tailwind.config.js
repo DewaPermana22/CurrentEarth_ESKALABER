@@ -11,6 +11,8 @@ module.exports = {
       },
       backgroundImage: {
         'home': "url('../assets/img/bg-hero.jpg')",
+        'Sensor' : "url('../assets/img/sensor-udara.jpeg')",
+        'robot' : "url('../assets/img/robot.webp')",
       },
       keyframes: {
         breathing: {
