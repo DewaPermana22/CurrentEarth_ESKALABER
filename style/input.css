@@ -22,7 +22,7 @@
 }
 
 .linknav {
-    @apply mx-2  font-semibold relative inline-block after:content-[''] after:absolute after:bg-blue-600 after:h-[2px] after:w-0 after:left-1/2 after:bottom-0 after:transition-all after:duration-300 after:ease-in-out after:transform after:-translate-x-1/2 hover:after:w-full;
+    @apply mx-2 font-semibold relative after:content-[''] after:absolute after:bg-blue-600 after:h-[2px] after:w-0 after:left-1/2 after:bottom-0 after:transition-all after:duration-300 after:ease-in-out after:transform after:-translate-x-1/2 hover:after:w-full block text-center py-2 lg:py-0 lg:inline-block;
 }
 
 .scrollPageProyek {
@@ -65,4 +65,25 @@
 
 .background{
     background-size: contain;
+}
+
+.hamburger-garis {
+    @apply w-[30px] h-[2px] absolute right-5 rounded-sm bg-black duration-300;
+}
+
+.hamburgerButton.diklik .hamburger-garis:nth-child(1) {
+    @apply origin-top-left rotate-[45deg];
+}
+.hamburgerButton.diklik .hamburger-garis:nth-child(2) {
+    @apply scale-0;
+}
+.hamburgerButton.diklik .hamburger-garis:nth-child(3) {
+    @apply origin-bottom-left -rotate-[45deg];
+}
+
+.navMenu {
+    transform: translateX(1000px);
+}
+.navbar.diklik .navMenu {
+    transform: translateX(0);
 }
