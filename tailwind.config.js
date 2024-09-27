@@ -15,6 +15,7 @@ module.exports = {
         'robot' : "url('../assets/img/robot.webp')",
         'drone' : "url('../assets/img/drone-1866742_640.jpg')",
         'sea-bin': "url('../assets/img/seabin-artc.jpg')",
+        'bg-cuaca' : "url('../assets/img/ID-EPS-02-0001.png')"
       },
       keyframes: {
         breathing: {
