@@ -1,6 +1,8 @@
 const elProvinsi = document.querySelector(".detailCuacaProvinsi");
-
+const loadingSpinner = document.querySelector(".loading-spinner");
 const elCuacaProv = async () => {
+
+  loadingSpinner.classList.remove("hidden");
   function translateWeatherMain(cuaca) {
     const translations = {
         "clear": "Cerah",
@@ -229,5 +231,8 @@ const elCuacaProv = async () => {
       </div>
     `); 
   });
+
+  loadingSpinner.classList.add("hidden");
+
 }
 elCuacaProv();
