@@ -2457,6 +2457,10 @@ video {
     overflow: hidden;
   }
 
+  .md\:bg-cover {
+    background-size: cover;
+  }
+
   .md\:bg-center {
     background-position: center;
   }
