@@ -107,9 +107,89 @@ const elCuacaProv = async () => {
     let ketPolusi = evaluateAirQuality(polusi);
     let ikonPolusi = getPolutionIcon(polusi);
 
-
+    let bgProv = "";
+    switch (p.name.toLowerCase()) {
+      case "sumatera utara":
+        bgProv = "bg-sumut";
+        break;
+        case "sumatera barat":
+        bgProv = "bg-sumbar";
+        break;
+        case "sumatera selatan":
+        bgProv = "bg-sumsel";
+        break;
+        case  "aceh":
+        bgProv = "bg-aceh";
+        break;
+        case "bengkulu":
+        bgProv = "bg-bengkulu";
+        break;
+        case "jambi":
+        bgProv = "bg-jambi";
+        break;
+        case "riau":
+        bgProv = "bg-riau";
+        break;
+        case "kepulauan riau":
+        bgProv = "bg-kep-riau";
+        break;
+        case "lampung":
+        bgProv = "bg-lampung";
+        break;
+        case "jawa barat":
+        bgProv = "bg-jabar";
+        break;
+        case "jawa tengah":
+        bgProv = "bg-jateng";
+        break;
+        case "jawa timur":
+        bgProv = "bg-jatim";
+        break;
+        case "banten":
+        bgProv = "bg-banten";
+        break;
+        case "bali":
+        bgProv = "bg-bali";
+        break;
+        case "kalimantan barat":
+        bgProv = "bg-kaltim";
+        break;
+        case "kalimantan timur":
+        bgProv = "bg-kalbar";
+        break;
+        case "kalimantan selatan":
+        bgProv = "bg-kalsel";
+        break;
+        case "sulawesi utara":
+        bgProv = "bg-sultra";
+        break;
+        case "sulawesi selatan":
+        bgProv = "bg-sulsel";
+        break;
+        case "sulawesi tenggara":
+        bgProv = "bg-sultenggara";
+        break;
+        case "sulawesi tengah":
+        bgProv = "bg-sulteng";
+        break;
+        case "gorontalo":
+        bgProv = "bg-gorontalo";
+        break;
+        case "maluku":
+        bgProv = "bg-maluku";
+        break;
+        case "papua":
+        bgProv = "bg-papua";
+        break;
+        case "kepulauan bangka belitung":
+        bgProv = "bg-bangka_belitung";
+        break;
+        default:
+          bgProv = "bg-home";
+          break;
+    }
     elProvinsi.insertAdjacentHTML("beforeend", `
-      <div class="w-full sm:w-[400px] h-[250px] p-5 bg-home bg-cover bg-center rounded-md relative overflow-hidden">
+      <div class="w-full sm:w-[400px] h-[250px] p-5 ${bgProv} bg-cover  rounded-md relative overflow-hidden">
         <div class="w-full h-full inset-0 absolute bg-black opacity-20"></div>
         <div class="flex">
           <h1 class="text-[30px] z-[1] relative font-inter  font-semibold text-slate-50">
