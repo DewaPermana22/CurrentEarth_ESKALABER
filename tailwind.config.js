@@ -43,6 +43,8 @@ module.exports = {
         'gorontalo' : "url('../assets/img/gorontalo.jpeg')",
         'maluku' : "url('../assets/img/maluku.jpeg')",
         'papua' : "url('../assets/img/papua.jpg')",
+        'jakarta' : "url('../assets/img/jakarta.jpeg')",
+        'jogja' : "url('../assets/img/jogja.jpg')",
 
       },
       keyframes: {

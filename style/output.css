@@ -1304,6 +1304,10 @@ video {
   background-image: url('../assets/img/jabar.jpg');
 }
 
+.bg-jakarta {
+  background-image: url('../assets/img/jakarta.jpeg');
+}
+
 .bg-jambi {
   background-image: url('../assets/img/jambi.png');
 }
@@ -1314,6 +1318,10 @@ video {
 
 .bg-jatim {
   background-image: url('../assets/img/jatim.jpeg');
+}
+
+.bg-jogja {
+  background-image: url('../assets/img/jogja.jpg');
 }
 
 .bg-kalbar {
