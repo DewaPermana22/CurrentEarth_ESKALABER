@@ -220,7 +220,7 @@ const elCuacaProv = async () => {
               <i class="bi bi-geo-alt-fill"></i> ${p.name}
             </h1>
           </div>
-          <div class="flex absolute bottom-3">
+          <div class="flex absolute bottom-3 max-sm:left-2">
             <div class="w-[85px] h-[80px] rounded-md mt-3 mr-[8px] bg-slate-100 relative">
               <div class="flex justify-center items-center mt-5">
                 <h1 class="text-[25px] font-inter font-bold text-slate-900">
@@ -262,7 +262,7 @@ const elCuacaProv = async () => {
     semuaPromise.push(weatherApiFetch);
   });
 
-  console.log(semuaPromise);
+ 
 
   await Promise.all(semuaPromise);
   loadingSpinner.classList.add("hidden");

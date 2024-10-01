@@ -45,6 +45,7 @@ module.exports = {
         'papua' : "url('../assets/img/papua.jpg')",
         'jakarta' : "url('../assets/img/jakarta.jpeg')",
         'jogja' : "url('../assets/img/jogja.jpg')",
+        'kalkulator' : "url('../assets/img/bg-kalkulator1.avif')",
 
       },
       keyframes: {
